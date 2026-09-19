@@ -179,4 +179,4 @@
 
 ---
 
-来源：`claude-memory`（`exp-bff-multisource-dashboard.md`、`exp-cross-source-semantics-honesty.md`、`exp-verify-with-live-data.md`、`exp-shared-infra-ops.md`）、`memex`（`10-projects/axiom/decisions/ADR-001`）
+来源：`claude-memory`、`memex`

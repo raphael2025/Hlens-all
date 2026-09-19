@@ -138,4 +138,4 @@ AI agent 天然是**泄密放大器**：它读你的环境变量、读你的配�
 
 ---
 
-来源：`memories`（`01-operating/redaction.md`）、`raphael-agent-memory`（`memory/topics/redaction-rules.md`、`scripts/`）、`memex`（`AI_RULES.md`）
+来源：`memories`、`raphael-agent-memory`、`memex`

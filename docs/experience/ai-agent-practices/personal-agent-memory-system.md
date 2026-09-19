@@ -211,4 +211,4 @@ mistake 类额外 +0.15
 
 ---
 
-来源：`memories`、`raphael-agent-memory`、`memex`、`claude`（`claude_self` 部分）
+来源：`memories`、`raphael-agent-memory`、`memex`、`claude`

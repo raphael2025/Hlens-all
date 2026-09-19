@@ -167,4 +167,4 @@ AI agent 极大地降低了"跑一个实验"的成本。
 
 ---
 
-来源：`memories`（`01-operating/research-protocol.md`、`02-quant/*`）、`memex`（`20-knowledge/trading/quant-research/`）、`claude-memory`（`research-ledger.md`、`summarize-research-to-memory.md`）
+来源：`memories`、`memex`、`claude-memory`

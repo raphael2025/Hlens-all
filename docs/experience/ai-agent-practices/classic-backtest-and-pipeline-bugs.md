@@ -149,7 +149,7 @@
 | NTP 时间回拨（step） | 晚到的记录拿到更早的时间戳 → 回放中**提前可见** |
 | 容器 / 虚拟机迁移导致墙钟跳变 | 同上，顺序与真实获知时刻脱钩 |
 | 毫秒级碰撞 | 同一时间戳内多条记录的全序未定义 |
-| 某些虚拟化环境 | 实测过每 ~32 秒回拨约 1 秒、每天数千次的情况 |
+| 某些虚拟化环境 | 实测过高频、规律性的时钟阶跃回拨，单日发生次数可达数千次 |
 
 **核心问题：墙钟可见性创造了一条真实的未来数据泄漏通道**——消费者在"过去"的某一时刻能看到本不该看到的记录。而且更糟的是，常规的"特征无未来数据"测试**测不出它**，因为那些测试验证的是特征计算，不是存储顺序与可见性语义。
 
@@ -188,4 +188,4 @@
 
 ---
 
-来源：`memories`（`02-quant/microstructure.md`、`falsified.md`、`01-operating/research-protocol.md`）、`claude`（`feedback-gate-live-trading-failure.md`、`research/alpha_audit/`）、`memex`（`10-projects/axiom/decisions/`）
+来源：`memories`、`claude`、`memex`

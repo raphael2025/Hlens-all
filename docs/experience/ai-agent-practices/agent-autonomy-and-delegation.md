@@ -140,4 +140,4 @@ agent 直接在上面加策略、画线、切周期。用户不得不打断："�
 
 ---
 
-来源：`memories`（`01-operating/autonomy.md`、`agent-roster.md`）、`raphael-agent-memory`（`memory/topics/autonomy.md`）、`claude-memory`（`exp-cursor-agent-driver.md`）、`claude`（`tv_mcp_*`、`feedback-autonomous-research.md`）、`memex`（`AI_RULES.md`）
+来源：`memories`、`raphael-agent-memory`、`claude-memory`、`claude`、`memex`
