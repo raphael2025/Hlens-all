@@ -1,6 +1,6 @@
 # 经验文档总览
 
-这个目录整理自 raphael2025 名下多个私有/公开仓库里沉淀下来的经验教训、设计决策、复盘和研究方法论。每篇文档都经过重写(不是原文搬运),并且明确排除了服务器/内网 IP、账户名、密码、API key、token、私钥、助记词、以及个人联系方式等信息——具体策略参数和实盘业绩数字也统一做了脱敏或省略,只保留方法论和机制本身。
+这个目录整理自 raphael2025 名下多个私有/公开交易相关仓库里沉淀下来的经验教训、设计决策、复盘和研究方法论。每篇文档都经过重写(不是原文搬运),并且明确排除了服务器/内网 IP、账户名、密码、API key、token、私钥、助记词、以及个人联系方式等信息——具体策略参数和实盘业绩数字也统一做了脱敏或省略,只保留方法论和机制本身。
 
 每篇文档末尾的"来源"行会标注它整理自哪个原始仓库(仅仓库名,不含路径/账户信息)。
 
@@ -9,19 +9,16 @@
 | 目录 | 主题 | 文档数 |
 |---|---|---|
 | [quant-research/](quant-research/) | 量化研究方法论:反过拟合、回测失败模式、研究纪律、风险管理、策略证伪地图、架构设计 | 13 篇 + 索引 |
-| [ai-agent-practices/](ai-agent-practices/) | 个人 AI agent 使用经验:记忆系统设计、密钥卫生、自主性与委托、研究验证纪律 | 6 篇 |
-| [architecture-evolution/](architecture-evolution/) | 一个交易系统项目多代演进的架构决策与放弃的设计 | 5 篇 |
+| [architecture-evolution/](architecture-evolution/) | 交易系统项目多代演进的架构决策与放弃的设计 | 5 篇 |
 | [trading-execution/](trading-execution/) | 交易执行系统设计:纸面交易引擎、信号证据标准、多时间框架策略、行情源保真度 | 5 篇 |
-| [ops-and-monitoring/](ops-and-monitoring/) | 监控告警系统设计、运维踩坑复盘、凭证泄露审计案例 | 6 篇 |
-| [misc/](misc/) | 其他:回测引擎交叉验证、研究日志实践、规格驱动开发、自动化工具安全默认值 | 6 篇 |
+| [ops-and-monitoring/](ops-and-monitoring/) | 交易系统的监控告警设计、运维踩坑复盘、凭证泄露审计案例 | 6 篇 |
 
 ## 阅读建议
 
 - 想了解怎么做靠谱的量化研究:从 `quant-research/` 开始。
 - 想了解怎么搭一套可信的交易执行系统:看 `trading-execution/`。
-- 想了解一个系统怎么演进、哪些设计被放弃了、为什么:看 `architecture-evolution/`。
-- 想了解监控告警系统怎么设计、常见运维坑:看 `ops-and-monitoring/`。
-- 想了解怎么用 AI agent 做研究/怎么管理 agent 记忆:看 `ai-agent-practices/`。
+- 想了解一个交易系统怎么演进、哪些设计被放弃了、为什么:看 `architecture-evolution/`。
+- 想了解交易系统的监控告警怎么设计、常见运维坑:看 `ops-and-monitoring/`。
 
 ## 说明
 
